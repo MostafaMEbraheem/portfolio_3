@@ -1,0 +1,361 @@
+:root {
+    --text-color: #748182;
+    --text-family: 'Poppins', sans-serif;
+}
+
+nav {
+    z-index: 100;
+}
+
+.nav-link {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #111;
+}
+
+.home {
+    height: 100vh;
+}
+
+.navbar-collapse {
+    float: right!important;
+}
+
+.homepage {
+    height: 100vh;
+    background: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.overlay {
+    height: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.overlay h1 {
+    font-size: 4.5rem;
+    font-weight: 600;
+}
+
+.overlay p {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.homepage .homepar::after {
+    content: "";
+    animation: typing 10s infinite;
+}
+
+.c-bold {
+    font-weight: 900;
+}
+
+@keyframes typing {
+    0% {
+        content: "I AM L|"
+    }
+    2% {
+        content: "I AM La|"
+    }
+    4% {
+        content: "I AM Lar|"
+    }
+    6% {
+        content: "I AM larr|"
+    }
+    8% {
+        content: "I AM Larry|"
+    }
+    10% {
+        content: "I AM Larry D|"
+    }
+    12% {
+        content: "I AM Larry Da|"
+    }
+    14% {
+        content: "I AM Larry Dan|"
+    }
+    16% {
+        content: "I AM Larry Dani| "
+    }
+    18% {
+        content: "I AM Larry Danie|"
+    }
+    20% {
+        content: "I AM Larry Daniel|"
+    }
+    22% {
+        content: "I AM Larry Daniels|"
+    }
+    24% {
+        content: "I AM Larry Daniel|"
+    }
+    26% {
+        content: "I AM Larry Danie|"
+    }
+    28% {
+        content: "I AM Larry Dan|"
+    }
+    30% {
+        content: "I AM Larry Da|"
+    }
+    33% {
+        content: "I AM Larry D|"
+    }
+    36% {
+        content: "I AM Larry|"
+    }
+    39% {
+        content: "I AM Lar|"
+    }
+    43% {
+        content: "I AM L|"
+    }
+    47% {
+        content: "I AM D|"
+    }
+    50% {
+        content: "I AM De|"
+    }
+    54% {
+        content: "I AM Des|"
+    }
+    57% {
+        content: "I AM Desig|"
+    }
+    60% {
+        content: "I AM Design|"
+    }
+    64% {
+        content: "I AM Designer|"
+    }
+    67% {
+        content: "I AM Designe|"
+    }
+    70% {
+        content: "I AM Desig|"
+    }
+    74% {
+        content: "I AM Desi|"
+    }
+    77% {
+        content: "I AM De|"
+    }
+    80% {
+        content: "I AM D|"
+    }
+    83% {
+        content: "I AM De|"
+    }
+    87% {
+        content: "I AM Deve|"
+    }
+    90% {
+        content: "I AM Develo|"
+    }
+    91% {
+        content: "I AM Develope|"
+    }
+    92% {
+        content: "I AM Developer|"
+    }
+    93% {
+        content: "I AM Develop|"
+    }
+    93% {
+        content: "I AM Devel|"
+    }
+    97% {
+        content: "I AM Deve|"
+    }
+    98% {
+        content: "I AM De|"
+    }
+    100% {
+        content: "I AM |"
+    }
+}
+
+.box-shadow-full {
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 6%), 0 2px 5px 0 rgb(0 0 0 / 20%);
+}
+
+.about-image {
+    z-index: 4;
+}
+
+.iconat>span {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.progress-bar {
+    font-size: 14px;
+}
+
+.buttons>button {
+    border: 1px solid black !important;
+    transition: all .5s;
+}
+
+.buttons .btn1:hover {
+    background-color: white!important;
+    color: black!important;
+}
+
+.buttons .btn2:hover {
+    background-color: rgb(0, 0, 0)!important;
+    color: rgb(255, 255, 255)!important;
+}
+
+.abouttext {
+    color: var(--text-color);
+    font-size: 15px!important;
+}
+
+.row .about-image::after {
+    content: '';
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: 0px;
+    bottom: -30px;
+    background-image: url(../images/dots.png);
+    background-repeat: repeat;
+    z-index: -1;
+}
+
+.padding {
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+.serhead h3::after {
+    content: '';
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    left: 0px;
+    bottom: -10px;
+    background-image: url(../images/dots.png);
+    background-repeat: repeat;
+    z-index: -1;
+}
+
+.heading {
+    font-size: 40px;
+    font-weight: 900;
+    position: relative;
+    display: inline-block;
+    z-index: 4;
+}
+
+.carousel-caption p {
+    color: #748182;
+}
+
+.c-color {
+    color: #748182;
+    font-weight: 600;
+}
+
+.services-items div span {
+    width: 70px;
+    height: 70px;
+    transition: all .5s;
+    background-color: #f0f0f0;
+}
+
+.services-items div p {
+    color: var(--text-color);
+    word-spacing: 2px;
+    font-family: var(--text-family)
+}
+
+.services-items:hover span {
+    background-color: black;
+    color: white;
+}
+
+.back-img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(255, 255, 255, .9);
+    border: 5px solid rgb(209, 209, 209);
+    opacity: 0;
+    transition: all 1s;
+}
+
+.back-img:hover {
+    opacity: 1;
+}
+
+.port-icon>span>i {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 28px;
+    border-radius: 50%;
+    border: 1px solid #111;
+    background: #111;
+    color: #eee;
+    transition: all .5s;
+}
+
+.port-icon>span>i:hover {
+    background: white;
+    color: black;
+}
+
+.footer-web {
+    color: #748182;
+}
+
+.scalling {
+    overflow: hidden;
+    transition: all 1s;
+}
+
+.scalling:hover {
+    transform: scale(1.2, 1.2);
+}
+
+.blog-head {
+    font-size: 12px;
+    color: var(--text-color);
+}
+
+.blog-par {
+    color: #000;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.blog-anch {
+    color: #748182;
+    text-decoration: none;
+    border-bottom: #000 2px solid;
+}
+
+.hove-btn {
+    background-color: #000;
+    color: #eee;
+    transition: all 1s;
+}
+
+.hove-btn:hover {
+    background-color: rgb(255, 255, 255);
+    color: #000;
+    border: 1px solid black
+}
